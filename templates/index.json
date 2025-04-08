@@ -146,12 +146,6 @@
             "show_rating": true
           }
         },
-        "description_jGf8M9": {
-          "type": "description",
-          "settings": {
-            "text_size": "text-base"
-          }
-        },
         "variant_picker_V4FmR9": {
           "type": "variant_picker",
           "settings": {
@@ -210,7 +204,6 @@
       },
       "block_order": [
         "title_LD3cEW",
-        "description_jGf8M9",
         "variant_picker_V4FmR9",
         "countdown_G849nJ",
         "buy_buttons_cAzDeh",
