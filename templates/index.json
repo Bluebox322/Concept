@@ -162,13 +162,23 @@
             "size_chart": ""
           }
         },
+        "countdown_G849nJ": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up!",
+            "subheading": "Sale end in:",
+            "color_text": "#e11d48",
+            "color_background": "#fff1f2",
+            "gradient_background": ""
+          }
+        },
         "buy_buttons_cAzDeh": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
+            "show_quantity_selector": false,
             "show_price": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
             "enable_back_in_stock": false,
             "show_back_in_stock_name": false,
             "show_back_in_stock_phone": false
@@ -202,6 +212,7 @@
         "title_LD3cEW",
         "description_jGf8M9",
         "variant_picker_V4FmR9",
+        "countdown_G849nJ",
         "buy_buttons_cAzDeh",
         "pickup_availability_QqJzPm",
         "share_t7TQpy",
@@ -209,7 +220,7 @@
         "spinning_text_m76Gme"
       ],
       "settings": {
-        "product": "chlorophyll-liquid-drops",
+        "product": "bioactive-grow-serum",
         "enable_sticky_info": true,
         "media_size": 66,
         "gallery_layout": "thumbnail",

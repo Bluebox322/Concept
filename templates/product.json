@@ -9,6 +9,80 @@
  */
 {
   "sections": {
+    "logo_list_t7KdGV": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_HcjwH7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Cosmopolitan__revista__logotipo.png",
+            "height": 80,
+            "link": ""
+          }
+        },
+        "logo_YL86Ty": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Elle_logo_svg.png",
+            "height": 80,
+            "link": ""
+          }
+        },
+        "logo_9FGLqG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555008507703722818-21b0ccb5-3d2c-478a-8ac3-49e715c77530.webp",
+            "height": 80,
+            "link": ""
+          }
+        },
+        "logo_CQAjzy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Comopolitan.png",
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_HcjwH7",
+        "logo_YL86Ty",
+        "logo_9FGLqG",
+        "logo_CQAjzy"
+      ],
+      "settings": {
+        "layout": "default",
+        "grid_horizontal": 70,
+        "direction": "left",
+        "speed": 5,
+        "heading": "Logo list",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "main-product": {
       "type": "main-product",
       "blocks": {
@@ -50,9 +124,9 @@
           "type": "variant_picker",
           "settings": {
             "show_variant_labels": true,
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "enable_color_swatches": true,
-            "color_swatch_type": "color",
+            "color_swatch_type": "variant",
             "size_chart": ""
           }
         },
@@ -70,25 +144,30 @@
           "settings": {
             "show_quantity_selector": true,
             "show_price": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
             "enable_back_in_stock": false,
             "show_back_in_stock_name": false,
             "show_back_in_stock_phone": false
           }
         },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
+        "collapsible_tab_XnVTiM": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share",
-            "show_help_desk": true,
-            "help_label": "Need help?",
-            "help_type": "drawer",
-            "help_page": ""
+            "icon": "none",
+            "heading": "Collapsible row",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "icon_list_gHByFy": {
+          "type": "icon_list",
+          "settings": {
+            "heading": "mpo",
+            "enable_carousel": false,
+            "show_below_media": false
           }
         },
         "complementary": {
@@ -113,8 +192,8 @@
         "variant_picker",
         "inventory",
         "buy_buttons",
-        "pickup_availability",
-        "share",
+        "collapsible_tab_XnVTiM",
+        "icon_list_gHByFy",
         "complementary",
         "sticky_buy_button"
       ],
@@ -211,76 +290,6 @@
       "settings": {
         "heading": "Need help?",
         "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
-      }
-    },
-    "video-hero": {
-      "type": "video-hero",
-      "blocks": {
-        "slide-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 1",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-2": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 2",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-3": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 3",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-4": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 4",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "slide-1",
-        "slide-2",
-        "slide-3",
-        "slide-4"
-      ],
-      "settings": {
-        "transparent_header": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "content_width": "medium",
-        "video_url_mobile": "",
-        "color_text": "#ffffff",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_overlay": "#000000",
-        "overlay_opacity": 40,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false
       }
     },
     "collage": {
@@ -821,9 +830,9 @@
     }
   },
   "order": [
+    "logo_list_t7KdGV",
     "main-product",
     "help-drawer",
-    "video-hero",
     "collage",
     "image-with-text-1",
     "scrolling-text",
