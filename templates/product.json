@@ -9,80 +9,6 @@
  */
 {
   "sections": {
-    "logo_list_t7KdGV": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_HcjwH7": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Cosmopolitan__revista__logotipo.png",
-            "height": 80,
-            "link": ""
-          }
-        },
-        "logo_YL86Ty": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Elle_logo_svg.png",
-            "height": 80,
-            "link": ""
-          }
-        },
-        "logo_9FGLqG": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555008507703722818-21b0ccb5-3d2c-478a-8ac3-49e715c77530.webp",
-            "height": 80,
-            "link": ""
-          }
-        },
-        "logo_CQAjzy": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Comopolitan.png",
-            "height": 80,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_HcjwH7",
-        "logo_YL86Ty",
-        "logo_9FGLqG",
-        "logo_CQAjzy"
-      ],
-      "settings": {
-        "layout": "default",
-        "grid_horizontal": 70,
-        "direction": "left",
-        "speed": 5,
-        "heading": "Logo list",
-        "heading_size": "title-md",
-        "heading_alignment": "text-center md:items-center",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "main-product": {
       "type": "main-product",
       "blocks": {
@@ -790,7 +716,6 @@
     }
   },
   "order": [
-    "logo_list_t7KdGV",
     "main-product",
     "help-drawer",
     "collage",
