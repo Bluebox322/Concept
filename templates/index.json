@@ -361,6 +361,10 @@
           "settings": {
             "text": "Featured product"
           }
+        },
+        "read_more_G88TG4": {
+          "type": "read_more",
+          "settings": {}
         }
       },
       "block_order": [
@@ -370,7 +374,8 @@
         "buy_buttons_cAzDeh",
         "collapsible_tab_HbzNfN",
         "icon_list_qUKECk",
-        "spinning_text_m76Gme"
+        "spinning_text_m76Gme",
+        "read_more_G88TG4"
       ],
       "settings": {
         "product": "lift-buds",

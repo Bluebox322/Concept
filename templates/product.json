@@ -104,12 +104,6 @@
             "show_rating": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "text_size": "text-base"
-          }
-        },
         "countdown": {
           "type": "countdown",
           "settings": {
@@ -187,7 +181,6 @@
       "block_order": [
         "vendor",
         "title",
-        "description",
         "countdown",
         "variant_picker",
         "inventory",
