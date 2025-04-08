@@ -114,23 +114,10 @@
             "gradient_background": ""
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "kaching_bundles_app_block_fpRn8V": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "show_variant_labels": true,
-            "picker_type": "dropdown",
-            "enable_color_swatches": true,
-            "color_swatch_type": "variant",
-            "size_chart": ""
-          }
-        },
-        "inventory": {
-          "type": "inventory",
-          "settings": {
-            "inventory_threshold": 15,
-            "show_inventory_transfer": true,
-            "show_inventory_quantity": "low",
-            "color_scheme": "accent-1"
+            "product": "{{product}}"
           }
         },
         "buy_buttons": {
@@ -145,13 +132,6 @@
             "show_back_in_stock_phone": false
           }
         },
-        "back_in_stock_VrhtUT": {
-          "type": "back_in_stock",
-          "settings": {
-            "heading": "",
-            "description": "<p>Sign up to be the first to know when it's here</p>"
-          }
-        },
         "collapsible_tab_XnVTiM": {
           "type": "collapsible_tab",
           "settings": {
@@ -163,23 +143,6 @@
             "opened": false
           }
         },
-        "icon_list_gHByFy": {
-          "type": "icon_list",
-          "settings": {
-            "heading": "mpo",
-            "enable_carousel": false,
-            "show_below_media": false
-          }
-        },
-        "complementary": {
-          "type": "complementary",
-          "settings": {
-            "heading": "Pairs well with",
-            "product_limit": 4,
-            "show_vendor": false,
-            "show_price": true
-          }
-        },
         "sticky_buy_button": {
           "type": "sticky_buy_button",
           "settings": {}
@@ -189,13 +152,9 @@
         "vendor",
         "title",
         "countdown",
-        "variant_picker",
-        "inventory",
+        "kaching_bundles_app_block_fpRn8V",
         "buy_buttons",
-        "back_in_stock_VrhtUT",
         "collapsible_tab_XnVTiM",
-        "icon_list_gHByFy",
-        "complementary",
         "sticky_buy_button"
       ],
       "settings": {
