@@ -145,6 +145,13 @@
             "show_back_in_stock_phone": false
           }
         },
+        "back_in_stock_VrhtUT": {
+          "type": "back_in_stock",
+          "settings": {
+            "heading": "",
+            "description": "<p>Sign up to be the first to know when it's here</p>"
+          }
+        },
         "collapsible_tab_XnVTiM": {
           "type": "collapsible_tab",
           "settings": {
@@ -185,6 +192,7 @@
         "variant_picker",
         "inventory",
         "buy_buttons",
+        "back_in_stock_VrhtUT",
         "collapsible_tab_XnVTiM",
         "icon_list_gHByFy",
         "complementary",

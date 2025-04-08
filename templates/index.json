@@ -325,6 +325,12 @@
             "gradient_background": ""
           }
         },
+        "kaching_bundles_app_block_qK99Dg": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "buy_buttons_cAzDeh": {
           "type": "buy_buttons",
           "settings": {
@@ -371,6 +377,7 @@
         "title_LD3cEW",
         "variant_picker_V4FmR9",
         "countdown_G849nJ",
+        "kaching_bundles_app_block_qK99Dg",
         "buy_buttons_cAzDeh",
         "collapsible_tab_HbzNfN",
         "icon_list_qUKECk",
